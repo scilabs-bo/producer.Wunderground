@@ -6,7 +6,7 @@ This context producer serves as a bridge between the orion context broker and th
 
 ## Getting started
 
-The context provider can be retrieved from the [docker hub](https://hub.docker.com/r/smartcitylab2050/provider.wunderground). Use the following command to spin up a new container named `wunderground`:
+The context provider can be retrieved from the [docker hub](https://hub.docker.com/r/smartcitylab2050/producer.wunderground). Use the following command to spin up a new container named `wunderground`:
 
 ```
 docker run -d --name wunderground `
