@@ -1,5 +1,5 @@
 ### Build
-FROM node:12.14.1 as builder
+FROM node:12.16.1 as builder
 
 # Prepare build environment
 RUN mkdir /usr/src/app
@@ -14,7 +14,7 @@ COPY . /usr/src/app
 RUN npm run build
 
 ### Production
-FROM node:12.14.1
+FROM node:12.16.1
 
 LABEL maintainer="Fabian Bäumer <fabian.baeumer@rub.de>"
 ENV NODE_ENV=production
