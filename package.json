@@ -30,7 +30,8 @@
   "dependencies": {
     "convict": "^5.2.0",
     "debug": "^4.1.1",
-    "got": "^10.5.5"
+    "got": "^10.5.5",
+    "worker-farm": "^1.7.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.9",
