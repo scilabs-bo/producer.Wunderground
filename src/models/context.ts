@@ -8,7 +8,7 @@ export class ProviderResponse {
 
     prepare(attributes?: string[]): NormalizedObject[] {
         // Normalize all entities first
-        const normalizedEntities = this.entities.map(entity =>
+        const normalizedEntities = this.entities.map((entity) =>
             entity.normalize(attributes),
         );
         if (attributes === undefined) {
@@ -17,7 +17,7 @@ export class ProviderResponse {
 
         // Reduce to id and type first
         const reducedEntities: NormalizedObject[] = normalizedEntities.map(
-            entitiy => ({
+            (entitiy) => ({
                 id: entitiy.id,
                 type: entitiy.type,
             }),

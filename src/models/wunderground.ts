@@ -117,7 +117,7 @@ export class CurrentConditionsResponse {
         observations: RawObservation[];
     }): CurrentConditionsResponse {
         return {
-            observations: response.observations.map(obs =>
+            observations: response.observations.map((obs) =>
                 Observation.adapt(obs),
             ),
         };

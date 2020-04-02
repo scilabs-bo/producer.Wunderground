@@ -28,7 +28,7 @@ function invokeWorkers() {
         config
             .get('weatherStations')
             .split(',')
-            .forEach(stationId => {
+            .forEach((stationId) => {
                 workers(
                     stationId.trim(),
                     previousObservations[stationId],

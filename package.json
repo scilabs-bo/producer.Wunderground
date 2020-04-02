@@ -1,6 +1,6 @@
 {
     "name": "producer.wunderground",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "FIWARE context producer for the Weather Underground platform",
     "main": "dist/index.js",
     "scripts": {
@@ -30,25 +30,25 @@
     "dependencies": {
         "convict": "^5.2.0",
         "debug": "^4.1.1",
-        "got": "^10.6.0",
+        "got": "^10.7.0",
         "worker-farm": "^1.7.0"
     },
     "devDependencies": {
-        "@types/chai": "^4.2.9",
+        "@types/chai": "^4.2.11",
         "@types/convict": "^4.2.1",
         "@types/debug": "^4.1.5",
         "@types/got": "^9.6.9",
-        "@types/mocha": "^7.0.1",
-        "@types/node": "^13.7.7",
-        "@typescript-eslint/eslint-plugin": "^2.21.0",
-        "@typescript-eslint/parser": "^2.21.0",
+        "@types/mocha": "^7.0.2",
+        "@types/node": "^13.9.8",
+        "@typescript-eslint/eslint-plugin": "^2.26.0",
+        "@typescript-eslint/parser": "^2.26.0",
         "chai": "^4.2.0",
         "eslint": "^6.8.0",
-        "eslint-config-prettier": "^6.10.0",
-        "mocha": "^7.1.0",
-        "nock": "^12.0.2",
-        "prettier": "^1.19.1",
-        "ts-node": "^8.6.2",
+        "eslint-config-prettier": "^6.10.1",
+        "mocha": "^7.1.1",
+        "nock": "^12.0.3",
+        "prettier": "^2.0.2",
+        "ts-node": "^8.8.1",
         "typescript": "^3.8.3"
     }
 }

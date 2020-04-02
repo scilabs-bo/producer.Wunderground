@@ -8,7 +8,7 @@ import { URL } from 'url';
 
 const debug = Debug('producer:worker');
 
-module.exports = async function(
+module.exports = async function (
     stationId: string,
     previous: NormalizedWeatherObserved,
     callback: WorkerCallback,
