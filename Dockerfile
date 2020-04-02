@@ -6,7 +6,7 @@ RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
 
 # Install dependencies (with dev dependencies)
-COPY package.json /usr/src/app/package.json
+COPY package.json package-lock.json /usr/src/app/
 RUN npm install
 
 # Copy source files and build project
@@ -24,7 +24,7 @@ RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
 
 # Install dependencies (without dev dependencies)
-COPY package.json /usr/src/app/package.json
+COPY package.json package-lock.json /usr/src/app/
 RUN npm install
 
 # Copy compiled typescript from builder
